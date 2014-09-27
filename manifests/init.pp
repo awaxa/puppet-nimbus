@@ -1,6 +1,6 @@
 # installs nimbus, the irccloud app
 class nimbus (
-  $version = '0.7.3',
+  $version = '0.7.4',
 ) {
   package { 'Nimbus':
     ensure   => 'present',
